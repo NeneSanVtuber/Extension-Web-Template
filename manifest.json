@@ -1,0 +1,32 @@
+{
+ "manifest_version": 3,
+ "name": "Name Of Your Extension",
+ "version":"1.0",
+ "description":"Description of your Extension.",
+
+ "content_scripts": [
+  {
+    "matches": ["https://www.example.com/*"], 
+    "js": ["activity.js"],
+    "css": ["style.css"]
+  }],
+
+ "permissions":[
+  "activeTab",
+  "storage"
+ ],
+
+ "action":{
+  "default_popup":"popupWindow.html",
+  "default_icon":"icon.png"
+ },
+ "icons":{
+  "16":"icon.png",
+  "48":"icon.png",
+  "128":"icon.png"
+ },
+ "background":{
+  "service_worker":"background.js"
+ }
+
+}
