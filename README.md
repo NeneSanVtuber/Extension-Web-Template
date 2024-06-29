@@ -9,4 +9,4 @@ Estos archivos son plantillas básicas que te pueden ayudar a crear tu extensió
 - [@TitoChan](https://github.com/TitoChanZ)
 
 
-![Logo](https://avatars.githubusercontent.com/u/100386835?v=4)
+![Perfil Image](https://avatars.githubusercontent.com/u/100386835?v=4)
