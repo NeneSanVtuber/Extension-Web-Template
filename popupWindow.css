@@ -1,13 +1,33 @@
 /*
   *Estilos para la ventana emergente de tu Extensión
 */
+:root{
+  --colorBackgroundWhile:#ffeeff;
+  --colorBackgroundDark:#110011;
+}
+*{
+  font-family:Arial, Helvetica, sans-serif;
+  color:var(--colorBackgroundDark);
+}
+
 
 body{
  width: 200px;
  height:max-content;
- background: #ffffff;
+ background: var(--colorBackgroundWhile);
  
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--colorBackgroundDark);
+    color: white;
+  }
+  *{
+    color:var(--colorBackgroundWhile);
+  }
+}
+
 .H1_welcome{
  color: rgb(177, 0, 153);
  text-align: center;
